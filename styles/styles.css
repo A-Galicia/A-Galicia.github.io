@@ -1,8 +1,4 @@
 /* ========== Base ========== */
-html {
-  height: 100%;
-}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -11,9 +7,9 @@ body {
   color: #333;
   line-height: 1.6;
   min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
 }
 
 h1,
@@ -96,11 +92,25 @@ main {
   margin: 0 auto 24px;
 }
 
-
 .about-text p {
   margin: 0;
   color: #555;
   font-size: 1.02rem;
+}
+
+.about-img {
+  height: 300px;
+  width: auto;
+}
+
+.about-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-gmail {
+  transform: translateY(-100px);
 }
 
 /* ========== Standalone image (Elden Ring) ========== */
