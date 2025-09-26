@@ -7,9 +7,6 @@ body {
   color: #333;
   line-height: 1.6;
   min-height: 100vh;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
 }
 
 h1,
@@ -26,7 +23,14 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ========== Navbar / Logo ========== */
+.logo {
+  margin: 0;
+  font-size: 1.25rem;
+  place-self: center;
+  font-size: 2.5rem;
+}
+
+/* ========== Navbar ========== */
 .navbar {
   background: #222;
   color: #fff;
@@ -35,13 +39,6 @@ a:hover {
   align-items: center;
   gap: 24px;
   flex-wrap: wrap;
-}
-
-.logo {
-  margin: 0;
-  font-size: 1.25rem;
-  place-self: center;
-  font-size: 2.5rem;
 }
 
 .nav-list {
