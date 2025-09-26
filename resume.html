@@ -1,45 +1,104 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Personal Website</title>
+    <title>Alfredo's Website</title>
+    <link rel="stylesheet" href="styles/ResumeStyles.css" />
   </head>
   <body>
-    <nav></nav>
-    <h1 class="page-title">About Me!</h1>
-    <a href="Alfredo_Galicia_Resume.docx" download>Resume</a>
+    <h1 class="logo">Alfredo's website</h1>
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="head">
+      <h1 class="page-title">Resume</h1>
+      <p>
+        <strong>
+          Download my resume here ->
+          <a href="Alfredo_Galicia_Resume.docx" download>Resume</a>
+        </strong>
+      </p>
+    </div>
+
     <main class="resume">
       <div class="entry">
         <h2>Education</h2>
-        <h3 class="entry-title">Cal Poly</h3>
-        <p class="entry-info">Bachlors</p>
-        <p class="entry-description"></p>
+        <h3 class="entry-title">Moorpark Community College</h3>
+        <p class="entry-info">
+          Associate of Science in Computer Science for Transfer
+        </p>
+        <h3 class="entry-title">
+          California Polytechnic State University, San Luis Obispo
+        </h3>
+        <p class="entry-info">Bachelor of Science in Computer Science</p>
       </div>
+
+      <hr />
 
       <div class="entry">
         <h2>Experience</h2>
         <h3 class="entry-title">USMC</h3>
-        <p class="entry-info">Marine</p>
-        <p class="entry-description"></p>
+        <p class="entry-info">Technical Engineer</p>
+        <p class="entry-description">
+          Managed and maintained over $250,000 of government assets, ensuring
+          operational readiness and efficiency. Created training plans and
+          standard operating procedures for the technical engineering section,
+          enhancing team performance and compliance. Managed the continual
+          training and equipment readiness for the section, improving
+          operational capabilities and mission success.
+        </p>
       </div>
+
+      <hr />
 
       <div class="entry">
         <h2>Projects</h2>
-        <h3 class="entry-title">Spme project</h3>
-        <p class="entry-info">on github</p>
-        <p class="entry-description"></p>
+        <h3 class="entry-title">Asteroids (2D Shooter Game)</h3>
+        <p class="entry-info">
+          Built a real-time 2D Asteroids clone with a stable, time-step-driven
+          game look and input/event handling for smooth physics and rendering
+          with C++ and the SFML library. Created interactive game logic with
+          screen wrapping, random generation, and inertial physics. Integrated
+          CMake for cross-platform development.
+        </p>
+        <h3 class="entry-title">Strength Projector</h3>
+        <p class="entry-info">
+          Applied React to implement a frontend application with interactive
+          charts and a responsive design. Used Express.js to develop a backend
+          RESTful API for CRUD operations to manipulate user data and store it
+          in a PostgreSQL database. Authenticates and verifies users using JWTs
+          and keeps the user logged in for a given amount of time. Implemented
+          data analysis to project progress 50 days in the future, utilizing the
+          user’s workout history.
+        </p>
       </div>
+
+      <hr />
 
       <div class="entry">
         <h2>Coursework</h2>
         <ul class="skill-list">
-          <li>Hack4Impact</li>
-          <li>Comp Sci</li>
+          <li>Object-Oriented Programming in C++</li>
+          <li>Data Structures and Algorithims</li>
+          <li>Computer Architecture</li>
+          <li>Discrete Mathematics</li>
+          <li>Linear & Differential Mathematics</li>
+          <li>Modern Physics</li>
         </ul>
       </div>
+
+      <hr />
 
       <div class="entry">
         <h2>Skills</h2>
         <ul class="skill-list">
+          <li>C++, Javascript, HTML/CSS</li>
+          <li>Unix</li>
           <li>Leadership</li>
           <li>Teamwork</li>
         </ul>

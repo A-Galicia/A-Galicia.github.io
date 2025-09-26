@@ -1,0 +1,129 @@
+/* ========== Base ========== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9fb;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+.logo {
+    place-self: center;
+    font-size: 2.5rem;
+}
+
+/* ========== Navbar ========== */
+.navbar {
+  background: #222;
+  padding: 10px 0;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin: 0 15px;
+}
+
+.nav-list a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-list a:hover {
+  color: #00aaff;
+}
+
+/* ========== Head Section ========== */
+.head {
+  text-align: center;
+  padding: 30px 15px;
+}
+
+.page-title {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.head a {
+  color: #00aaff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.head a:hover {
+  text-decoration: underline;
+}
+
+/* ========== Resume Content ========== */
+.resume {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.entry {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.entry h2 {
+  border-bottom: 2px solid #00aaff;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.entry-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.entry-info {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.entry-description {
+  margin-bottom: 10px;
+}
+
+/* ========== Lists ========== */
+.skill-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-list li {
+  display: inline-block;
+  background: #eee;
+  margin: 5px 8px 5px 0;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* ========== Footer ========== */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 0.9em;
+}
