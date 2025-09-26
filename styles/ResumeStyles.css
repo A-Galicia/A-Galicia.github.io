@@ -159,4 +159,8 @@ footer {
   .logo {
     font-size: 3rem;
   }
+
+  footer {
+    font-size: 0.9rem;
+  }
 }
