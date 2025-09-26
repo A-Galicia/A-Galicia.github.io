@@ -77,10 +77,20 @@ main {
   text-align: center;
 }
 
+.project {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
 /* ========== About section ========== */
 .about {
-  display: grid;
-  grid-template-columns: 140px 1fr;
+  display: flex;
   gap: 20px;
   align-items: center;
   background: #fff;
@@ -155,5 +165,9 @@ footer {
 
   .logo {
     font-size: 3rem;
+  }
+
+  footer {
+    font-size: 2rem;
   }
 }
